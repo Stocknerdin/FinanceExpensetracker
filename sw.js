@@ -1,7 +1,7 @@
 // Personal Finance Tracker — offline helper.
 // The page itself: the newest copy from the internet, the saved copy when there is no connection.
 // Icons: from the saved copy. Google sign-in, Drive, Gmail, fonts and the text reader always go straight to the internet.
-const CACHE = 'pft-v71';
+const CACHE = 'pft-v80';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
